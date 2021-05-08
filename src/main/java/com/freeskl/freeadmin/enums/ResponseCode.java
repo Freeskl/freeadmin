@@ -14,12 +14,6 @@ public enum ResponseCode {
 
     BAD_REQUEST(400, "请求有异常"),
 
-    UNAUTHORIZED(401, "未认证"),
-
-    USER_ALREADY_REG(400, "该用户已经注册"),
-
-    ROLE_KEY_EXIST(400, "角色key不能重复"),
-
     NOT_LOGIN(401, "未登录"),
 
     FORBIDDEN(403, "访问被禁止"),
